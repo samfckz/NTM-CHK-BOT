@@ -1,7 +1,7 @@
 <?php
 
 ////////////////=============[NTM CHK BOT]=============////////////////
-$botToken = "6205064305:AAEEhoyi29L33iOMLjmVc3yf8P6qfO7Le3I"; // Enter ur bot token
+$botToken = "6433104963:AAFAM5uTJlxBOWtMNjVBma8OFWjoXYAWbsI"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -19,88 +19,19 @@ $premiums = file_get_contents('users.txt');
 $premium = explode("\n", $premiums);
 $group = file_get_contents('groups.txt');
 $groups = explode("\n", $group);
-if($userId == '5136746907') {
+if($userId == '1918397708') {
 $usernam = ''.$username.' 『 𝘿𝙀𝙑 』';
 }
-elseif($userId == '1438079488') {
+elseif($userId == '6144278280') {
         $usernam = ''.$username. ' 『 𝘾𝙤-𝙊𝙬𝙣𝙚𝙧 』';
 }
-elseif($userId == '599032965') {
+elseif($userId == '6645242544') {
         $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
 }
-elseif($userId == '5136746907') {
+elseif($userId == '7250233115') {
         $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
 }
 elseif($userId == '5208953138') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '5235254084') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1456981856') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1055691797') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '902490353') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1670892844') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1086782226') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '5537151587') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1167297260') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1806811191') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1395583035') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1693753708') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1614204503') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '601061568') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1925321421') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '2127918816') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1120329919') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1020896203') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1925321421') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '5342338593') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '1245824051') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '566648395') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '5252502378') {
-        $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
-}
-elseif($userId == '5360410436') {
         $usernam = ''.$username. ' 『 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 』';
 }
 else {
@@ -132,7 +63,7 @@ if ((strpos($message, "/info") === 0)||(strpos($message, "!start") === 0)||(strp
         sendMessage($chatId, "<b>%0A╔══════════════════════════%0A╟➣𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐈𝐃 ➣</b> <code>$userId</code>%0A<b>╟══════════════════════════%0A╟➣𝐆𝐫𝐨𝐮𝐩 𝐈𝐃 ➣ </b><code>$chatId</code>%0A<b>╟══════════════════════════%0A╟➣ 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 ➣</b> @$usernam%0A<b>╟══════════════════════════%0A╟➣𝐓𝐨 𝐊𝐧𝐨𝐰 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ➣ /cmds%0A╚══════════════════════════</b>", $message_id);
         }
         elseif ((strpos($message, "!pre") === 0)||(strpos($message, "/pre") === 0)){
-        if($userId == '803003146'|'1087442527') {
+        if($userId == '6144278280'|'1918397708') {
         $addpremium = substr($message, 6);
         fwrite(fopen('users.txt', 'a'), $addpremium."\r\n");
         sendMessage($chatId, "<b>Successfully added $addpremium to premium user</b>", $message_id);
@@ -151,7 +82,7 @@ if ((strpos($message, "/info") === 0)||(strpos($message, "!start") === 0)||(strp
         }
                 
         else {
-        sendMessage($chatId, "<b>You Can't  Add Groups, Ask %0A@abdul97233 To Add Your Group</b>", $message_id);
+        sendMessage($chatId, "<b>You Can't  Add Groups, Ask %0A@EthicalGod To Add Your Group</b>", $message_id);
         }
         }
         elseif ((strpos($message, "/chk") === 0)||(strpos($message, "!chk") === 0)||(strpos($message, "!ch") === 0)||(strpos($message, "/ch") === 0)||(strpos($message, ".ch") === 0)||(strpos($message, "!usd") === 0)||(strpos($message, "/usd") === 0)||(strpos($message, ".usd") === 0)||(strpos($message, ".chk") === 0)){
